@@ -1,0 +1,39 @@
+/* Estilos específicos para la página de Sucursales */
+
+.sucursales-list {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.sucursal-item {
+    background: #f9f9f9;
+    border: 1px solid #eef4ff;
+    border-left: 5px solid #2563eb; /* Borde de color de acento */
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    transition: transform 0.2s ease;
+}
+
+.sucursal-item:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+.sucursal-item h3 {
+    color: #1e40af;
+    font-size: 1.4em;
+    margin-bottom: 8px;
+}
+
+.sucursal-item p {
+    font-size: 1em;
+    color: #555;
+    line-height: 1.4;
+}
+
+/* El estilo del .encabezado a:hover debe estar en estilos.css (como te lo corregí) */

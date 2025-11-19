@@ -1,0 +1,57 @@
+/* Estilos específicos para la página Conócenos */
+
+.bio-section {
+    display: flex;
+    flex-wrap: wrap; /* Permite que los elementos se apilen en móviles */
+    align-items: center;
+    gap: 40px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.bio-texto {
+    flex: 2; /* Ocupa más espacio que la imagen en escritorio */
+    min-width: 300px;
+}
+
+.bio-imagen {
+    flex: 1;
+    min-width: 200px;
+    text-align: center;
+}
+
+.bio-imagen img {
+    width: 100%;
+    max-width: 350px; 
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    object-fit: cover;
+}
+
+.bio-texto h2 {
+    color: #1e40af;
+    font-size: 2em;
+    margin-bottom: 15px;
+    border-left: 4px solid #3b82f6;
+    padding-left: 10px;
+}
+
+.bio-texto p {
+    font-size: 1.1em;
+    line-height: 1.7;
+    margin-bottom: 20px;
+    color: #444;
+}
+
+/* Responsividad para móviles */
+@media (max-width: 768px) {
+    .bio-section {
+        flex-direction: column; /* Apila el texto y la imagen */
+    }
+
+    .bio-imagen {
+        order: -1; /* Mueve la imagen arriba en la vista móvil */
+        margin-bottom: 20px;
+    }
+}

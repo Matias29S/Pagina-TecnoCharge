@@ -1,0 +1,55 @@
+
+.registro-form {
+    background: #f9f9f9;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 450px;
+    margin: 0 auto;
+    border: 1px solid #eee;
+}
+
+.form-grupo {
+    margin-bottom: 20px;
+}
+
+.form-grupo label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: #333;
+}
+
+.form-grupo input[type="text"],
+.form-grupo input[type="email"],
+.form-grupo input[type="tel"] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1em;
+    transition: border-color 0.3s ease;
+}
+
+.form-grupo input:focus {
+    border-color: #2563eb;
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.2);
+}
+
+.registro-form button {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.mensaje-exito {
+    margin-top: 25px;
+    padding: 15px;
+    background-color: #d1fae5; 
+    color: #065f46;
+    border: 1px solid #a7f3d0;
+    border-radius: 6px;
+    text-align: center;
+    font-weight: 600;
+}

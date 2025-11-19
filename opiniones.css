@@ -1,0 +1,47 @@
+
+.opiniones-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.comentario-card {
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+    transition: box-shadow 0.3s ease;
+    border-top: 5px solid #3b82f6;
+}
+
+.comentario-card:hover {
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+.calificacion {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.comentario-card h3 {
+    color: #1e40af;
+    font-size: 1.3em;
+    margin-bottom: 10px;
+}
+
+.texto-comentario {
+    font-style: italic;
+    color: #444;
+    margin-bottom: 15px;
+    line-height: 1.5;
+}
+
+.autor {
+    font-weight: 600;
+    color: #666;
+    text-align: right;
+    font-size: 0.9em;
+}
