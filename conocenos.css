@@ -44,14 +44,13 @@
     color: #444;
 }
 
-/* Responsividad para móviles */
 @media (max-width: 768px) {
     .bio-section {
-        flex-direction: column; /* Apila el texto y la imagen */
+        flex-direction: column; 
     }
 
     .bio-imagen {
-        order: -1; /* Mueve la imagen arriba en la vista móvil */
+        order: -1;
         margin-bottom: 20px;
     }
 }

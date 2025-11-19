@@ -1,51 +1,47 @@
-/* RESET y Tipografía */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* Fuente Poppins para un aspecto moderno y limpio */
     font-family: 'Poppins', sans-serif; 
 }
 
 body {
-    /* Fondo blanco puro para mayor simplicidad */
     background: #ffffff; 
     color: #333;
     -webkit-font-smoothing: antialiased; 
 }
 
-/* ENCABEZADO (NAVBAR) */
+
 .encabezado {
     display: flex;
-    justify-content: center; /* Centramos los ítems */
-    gap: 30px; /* Espacio entre los ítems */
+    justify-content: center;
+    gap: 30px;
     background-color: #0f172a;
-    padding: 15px 0; /* Más padding vertical */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05); /* Sombra sutil */
+    padding: 15px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
 }
 
 .encabezado a {
-    color: #cbd5e1; /* Gris suave */
+    color: #cbd5e1;
     text-decoration: none;
     font-size: 15px;
     font-weight: 400;
     padding: 5px 10px;
     border-radius: 5px;
-    /* Mantenemos la transición para el efecto de color suave */
     transition: color 0.3s ease, background-color 0.3s ease; 
 }
 
-/* Aplicamos el cambio de color de fondo y texto al pasar el mouse (HOVER) */
 .encabezado a:hover {
-    color: #ffffff; /* Blanco al pasar el mouse */
-    background-color: #1e40af; /* Fondo de acento azul */
+    color: #ffffff;
+    background-color: #1e40af;
 }
-/* LOGO / HERO SECTION */
+
 .logo {
     text-align: center;
-    padding: 60px 20px; /* Más espacio vertical */
-    background: #eef4ff; /* Fondo azul muy claro y suave */
-    color: #1e40af; /* Título en color de acento */
+    padding: 60px 20px; 
+    background: #eef4ff;
+    color: #1e40af;
 }
 
 .logo h1 {
@@ -60,19 +56,16 @@ body {
     color: #3b82f6;
 }
 
-/* CUERPO PRINCIPAL */
 .cuerpo {
     display: flex;
     justify-content: center;
-    padding: 60px 20px; /* Más espacio vertical para "respirar" */
+    padding: 60px 20px;
     background: #ffffff;
 }
 
-/* TARJETA DE PRODUCTO (CARD) */
 .card {
     background: #f9f9f9; 
     border-radius: 12px;
-    /* Sombra suave */
     box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08); 
     padding: 30px; 
     text-align: center;
@@ -83,7 +76,7 @@ body {
 }
 
 .card:hover {
-    transform: translateY(-5px); /* Deslizamiento sutil al hacer hover */
+    transform: translateY(-5px); 
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12); 
 }
 
@@ -115,13 +108,12 @@ body {
     margin: 15px 0;
 }
 
-/* BOTÓN */
 button {
     background-color: #2563eb;
     color: white;
     border: none;
     padding: 12px 25px; 
-    border-radius: 25px; /* Bordes redondeados */
+    border-radius: 25px; 
     cursor: pointer;
     font-size: 1em;
     font-weight: 600;
@@ -136,14 +128,13 @@ button:active {
     transform: scale(0.98);
 }
 
-/* SECCIONES DE BENEFICIOS */
 .secciones {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     gap: 20px; 
     padding: 40px 20px;
-    background-color: #f0f4ff; /* Fondo ligeramente azul */
+    background-color: #f0f4ff;
 }
 
 .secciones > div {
@@ -156,7 +147,6 @@ button:active {
     text-align: center;
 }
 
-/* FOOTER */
 footer {
     background-color: #0f172a;
     color: #cbd5e1;
@@ -165,7 +155,6 @@ footer {
     font-size: 0.9em;
 }
 
-/* Media Query para responsividad en la card */
 @media (max-width: 600px) {
     .card {
         width: 100%;
